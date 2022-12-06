@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homePage">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="414dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ubc_logo_2018_fullsig_blue_rgb72" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="405dp"
+        android:layout_height="437dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        <Button
+            android:id="@+id/tradeBlock"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="#191970"
+            android:onClick="settradeBlock"
+            android:text="Trade block for Courses" />
+
+        <Button
+            android:id="@+id/studySpace"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="#191970"
+            android:onClick="setSstudyb"
+            android:text="Study Space trade Block" />
+
+        <Button
+            android:id="@+id/sscPage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="#191970"
+            android:onClick="setSsc"
+            android:text="SSC Log in" />
+
+        <Button
+            android:id="@+id/ubco_map"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="#191970"
+            android:onClick="setMapet"
+            android:text="Map" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/inst"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="98dp"
+        app:layout_constraintBottom_toTopOf="@+id/twit"
+        app:layout_constraintEnd_toStartOf="@+id/fb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/icons8_instagram_24" />
+
+    <ImageButton
+        android:id="@+id/fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/twit"
+        app:layout_constraintStart_toEndOf="@+id/inst"
+        app:layout_constraintTop_toTopOf="@+id/inst"
+        app:srcCompat="@drawable/icons8_facebook_50" />
+
+    <ImageButton
+        android:id="@+id/twit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fb"
+        app:layout_constraintTop_toBottomOf="@+id/inst"
+        app:srcCompat="@drawable/icons8_twitter_50" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="14dp"
+        android:text="UBC SUO social Media Links:"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/inst"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="121dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/suologo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

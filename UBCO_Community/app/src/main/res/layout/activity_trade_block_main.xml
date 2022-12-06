@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tradeBlockMain">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ubc_logo_2018_fullsig_blue_rgb72"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="114dp"
+        android:layout_height="29dp"
+        android:text="for"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#191970"
+        android:text="New Trade"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#191970"
+        android:text="Accept Trade"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#191970"
+        android:text="New trade"
+        android:textAlignment="viewEnd"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="118dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
