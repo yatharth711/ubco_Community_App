@@ -1,1 +1,2 @@
-# ubco_Community_App
+# UBCO Community Application
+
